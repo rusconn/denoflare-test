@@ -1,0 +1,11 @@
+{
+  "deno.enable": true,
+  "editor.formatOnSave": true,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
