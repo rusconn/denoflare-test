@@ -15,3 +15,10 @@ export "$(xargs -L 1 < .env)"
 ```fish
 export (xargs -L 1 < .env)
 ```
+
+## Usage
+
+```sh
+> curl 'https://numeronym.rusconn3.workers.dev?word=kubernetes'
+k8s
+```
