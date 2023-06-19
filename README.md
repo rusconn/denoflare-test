@@ -7,13 +7,13 @@ Try [Denoflare](https://denoflare.dev/).
 ### POSIX
 
 ```sh
-export "$(xargs -L 1 < .env)"
+export $(grep -v ^# < .env)
 ```
 
 ### Fish
 
 ```fish
-export (xargs -L 1 < .env)
+export (grep -v ^# < .env)
 ```
 
 ## Usage
