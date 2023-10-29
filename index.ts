@@ -27,9 +27,9 @@ const numeronym = (word: string) => {
   }
 
   const chars = [...word];
-  const head = chars.at(0);
+  const head = chars.at(0)!;
   const n = chars.length - 2;
-  const tail = chars.at(-1);
+  const tail = chars.at(-1)!;
 
   return `${head}${n}${tail}`;
 };
