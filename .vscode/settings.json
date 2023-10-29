@@ -1,6 +1,9 @@
 {
   "deno.enable": true,
   "editor.formatOnSave": true,
+  "files.associations": {
+    ".env*": "env"
+  },
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"

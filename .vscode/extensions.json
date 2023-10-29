@@ -3,6 +3,7 @@
     "davidanson.vscode-markdownlint",
     "shd101wyy.markdown-preview-enhanced",
     "esbenp.prettier-vscode",
-    "denoland.vscode-deno"
+    "denoland.vscode-deno",
+    "irongeek.vscode-env"
   ]
 }
